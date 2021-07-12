@@ -1,0 +1,15 @@
+// setting the default font size of the entire application. The idea here is then you do not have to set any of the font sizes in any of the component files, instead we would use 'rem's to increase the sizes of fonts as you please.
+// for example if you wanted a larger size at one point you could do:
+// ```
+//		font-size: 1.6rem;
+// ```
+$default-font-size: 10px;
+$curved-border: 10px;
+
+$min-header-height: 50px;
+$button-heights: 40px;
+$button-spacing: 5px;
+
+$textfield-heights: 30px;
+//$textfield-widths: 50px;
+$textfield-spacing: 10px;

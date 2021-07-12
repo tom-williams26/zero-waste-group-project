@@ -1,0 +1,4 @@
+// importing the other scss files into this one so that we only need to import this file into our components
+// SCSS was used here instead of normal CSS so that we can use features such as variables throughout the application.
+@import './colors.scss';
+@import './variables';
